@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    border-radius:3px ;
+}
+.item{
+    display: flex;
+    gap: 3vw;
+    padding-right: 2vw;
+}
+.logo h1{
+    padding-left: 2.70vw;
+    font-size: 2vw ;
+    color: orangered;
+}
+.logo span{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0.60vw 1vw;
+    border-radius: 8px;
+    transition: 0.70s;
+}
+nav a:hover{
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.item{
+    font-size: 1.30vw;
+    font-weight: 800;
+    
+}
+nav button{
+    width: 6vw;
+    height: 6vh;
+    background-color: orangered;
+    color: white;
+    font-size: 1.20vw;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.item i{
+    display: none;
+}
+.content{
+    display: flex;
+    
+}
+.child1{
+width: 55%;
+height: 100%;
+padding: 4vw;
+
+}
+.child1 h1{
+    font-size: 4.50vw;
+    font-weight: bold;
+    line-height: 5vw;
+}
+.child1 p{
+    margin-top: 2vw;
+    font-size: 1.30vw;
+    font-weight: 700;
+    line-height: 1.60vw;
+}
+.child1 span{
+    color:orangered;
+}
+.child1 button{
+    width: 8vw;
+    height: 6vh;
+    background-color: orangered;
+    color: white;
+    font-size: 1vw;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3vw;
+}
+.child2{
+    width: 45%;
+    height: 100%;
+}
+.child2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+nav .logo{
+ width: 17vw;
+}
+nav{
+    background-color: rgb(166, 240, 241);
+}
+.item{
+    display: none;
+}
+.item i{
+    display: initial;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+}
+.child1{
+    width: 100%;
+    height: 50%;
+}
+.child1 h1{
+    font-size: 9.50vw;
+    line-height: 9vw;
+}
+.child1 p{
+    font-size: 4vw;
+    line-height: 4vw;
+    font-weight: 500;
+
+}
+.child1 button{
+    font-size: 4vw;
+    width: 80%;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: 5vw;
+
+}
+.child2{
+    width: 90%;
+    height:50%;
+    padding-left: 5vw;
+}
+.child2 img{
+    width: 100%;
+    height: 100%;
+}
+
+}
